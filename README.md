@@ -4,10 +4,13 @@ The whole code base is under construction. Please feel free to contact me if you
 
 ## Code usages
 Step 1: preparation
-The model need data inputs stored in a csv file, which contains ids and dates as keys.
+
+The model need data inputs stored in a csv file, which contains ids and dates as keys. 
 
 Step 2: generating the feature embedding
+
 Running the model file "emb_model" in the folder "embedding"
+
 Parameters:
 - num_epochs: the number of epoches for embedding training
 - batch_size: batch size
@@ -17,11 +20,12 @@ Parameters:
 - input_dim: the number of features in the original data 
 - data_file: the path for the original data
 
-Step 3: training the learning model
+Step 3: training the learning model [more updates will come after publish]
+
 Running the model file "main" in the folder "learning"
-Parameters:
 
 
 ## Notion
 - The default keys of the data file are ids and dates.
 - By default, the codes are running on gpu.
+- The categories of labels are 0-based.
