@@ -22,7 +22,7 @@ Parameters:
 
 Step 3: training the learning model [more updates will come after publish]
 
-Running the model file "main" in the folder "learning"
+Running the model file "main_parameter" in the folder "learning"
 
 
 ## Notion
